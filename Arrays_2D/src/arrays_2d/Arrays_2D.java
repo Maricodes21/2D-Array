@@ -124,8 +124,13 @@ public class Arrays_2D {
             }
             System.out.println("");
         } System.out.println();
+        
         System.out.println("This is a specific value from the array: " + alphaNum[4][6]);
         
+        //New Change, the program returns a random value from the array
+        int first = (int) (Math.random() * 7);
+        int second = (int) (Math.random() * 10);
+        System.out.println("This is a random value from the array: " + alphaNum[first][second]);
         
         
         
